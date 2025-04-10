@@ -1,0 +1,41 @@
+#check {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+#check div {
+  display: flex;
+  gap: 0.625rem;
+
+  align-items: center;
+  border: 0.0625rem solid #a9aaab;
+
+  border-radius: 0.3125rem;
+  padding: 0.625rem;
+}
+
+#check div label {
+  color: black;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  padding: 1.25rem;
+
+  background-color: #f5f7fa;
+  width: fit-content;
+  height: 2.8125rem;
+
+  border: none;
+  border-radius: 55px;
+
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 1.125rem;
+}

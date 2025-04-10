@@ -1,0 +1,9 @@
+#app {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 55rem;
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 20px;
+}

@@ -1,0 +1,38 @@
+#SecunderyForms {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.SecunderyInput {
+  display: flex;
+  gap: 0.5rem;
+  height: 35px;
+  align-items: center;
+  border: 0.0625rem solid #a9aaab;
+  border-radius: 0.3125rem;
+}
+.SecunderyInput input {
+  border: none;
+  outline: none;
+  display: flex;
+  padding: 5px;
+}
+.SecunderyInput div {
+  display: flex;
+  align-items: center;
+
+  font-size: 18px;
+  font-weight: 400;
+  height: 100%;
+  padding-inline: 0.625rem;
+
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+
+  background-color: #e3f4fc;
+}
+.SecunderyInput span {
+  padding: 5px;
+}

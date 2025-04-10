@@ -1,0 +1,11 @@
+#CalculatorData {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 30px;
+}
+#CalculatorForms {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+}

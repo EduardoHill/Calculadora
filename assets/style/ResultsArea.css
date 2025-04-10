@@ -1,0 +1,54 @@
+#Results {
+  background-color: #15313f;
+  color: #fff;
+
+  border-radius: 20px;
+  border-bottom-left-radius: 80px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 1.25rem;
+  gap: 1.875rem;
+}
+
+#Results h1 {
+  font-size: 1.5rem;
+}
+
+#Results p {
+  color: #7994a5;
+}
+#ResultsData {
+  background-color: #10242f;
+  border-top: 4px solid #9ea1a4;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+  padding: 0.9375rem;
+}
+#ResultsData p {
+  color: #93a8b7;
+}
+
+#ResultsData #PrimereResult {
+  display: flex;
+  align-items: center;
+
+  font-size: 3.4375rem;
+  color: #e5e5e9;
+
+  padding-inline: 20px;
+
+  border-bottom: 0.0625rem solid #424151;
+}
+
+#SecundaryResult {
+  display: flex;
+  align-items: center;
+
+  font-size: 30px;
+  color: #e5e5e9;
+}
