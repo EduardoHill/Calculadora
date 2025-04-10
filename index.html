@@ -16,21 +16,21 @@
       <div id="CalculatorData">
         <nav>
           <h1>Mortgage Calculator</h1>
-          <button>Clear All</button>
+          <button id="clearAll">Clear All</button>
         </nav>
         <div id="CalculatorForms">
           <div id="PrimareForm">
             <label>Mortgage Amount</label><br />
             <div id="PrimareInput">
               <div><i class="ph ph-currency-eur"></i></div>
-              <input type="number" />
+              <input type="number" id="Valor" />
             </div>
           </div>
           <div id="SecunderyForms">
             <div>
               <label>Mortgage Term</label>
               <div class="SecunderyInput">
-                <input type="number" />
+                <input type="number" id="anos" />
                 <div><span>years</span></div>
               </div>
             </div>
@@ -38,7 +38,7 @@
             <div>
               <label>Interst Terms</label>
               <div class="SecunderyInput">
-                <input type="number" />
+                <input type="number" id="porcento" />
                 <div><span>%</span></div>
               </div>
             </div>
@@ -55,7 +55,7 @@
             <label for="Interest">Interest Only</label>
           </div>
         </div>
-        <button>
+        <button id="Calcular" type="submit">
           <img src="./assets/images/icon-calculator.svg" alt="" />Calculate
           Repayments
         </button>
@@ -70,14 +70,15 @@
         <div id="ResultsData">
           <p>Your monthly repayments</p>
           <div id="PrimereResult">
-            <i class="ph ph-currency-eur"></i><span>11111</span>
+            <i class="ph ph-currency-eur"></i><span id="Resultado"></span>
           </div>
           <p>Total you'll repay over the term</p>
           <div id="SecundaryResult">
-            <i class="ph ph-currency-eur"></i><span>11111</span>
+            <i class="ph ph-currency-eur"></i><span id="total"></span>
           </div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
