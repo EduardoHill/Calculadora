@@ -7,8 +7,6 @@ const totalAnual = document.getElementById('total')
 const clear = document.getElementById('clearAll')
 const Repayment = document.getElementById('Repayment')
 const Interest = document.getElementById('Interest')
-console.log(Interest.value)
-console.log(Repayment.value)
 
 clear.addEventListener('click', () => {
   valorHipoteca.value = ''
@@ -23,7 +21,7 @@ botao.addEventListener('click', (event) => {
   const valor = valorHipoteca.value
   let meses = anos.value * 12
   let taxa = porcento.value / 12 / 100
-
+  console.log(Interest.value)
   let parcela =
     (valor * (taxa * Math.pow(1 + taxa, meses))) /
     (Math.pow(1 + taxa, meses) - 1)

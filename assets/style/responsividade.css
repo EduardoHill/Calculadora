@@ -1,0 +1,25 @@
+@media (max-width: 48rem) {
+  #app {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+  }
+
+  #SecunderyForms {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: normal;
+  }
+  .SecunderyInput input {
+    width: 100%;
+  }
+  button {
+    width: 100%;
+  }
+
+  #Results {
+    border-radius: 0;
+    border-bottom-left-radius: 20px;
+  }
+}

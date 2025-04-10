@@ -29,3 +29,9 @@
 #PrimareInput div i {
   padding: 0.625rem;
 }
+
+#PrimareForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

@@ -21,7 +21,7 @@
 }
 #ResultsData {
   background-color: #10242f;
-  border-top: 4px solid #9ea1a4;
+  border-top: 4px solid hsl(61, 70%, 52%);
   border-radius: 8px;
 
   display: flex;
@@ -38,7 +38,7 @@
   align-items: center;
 
   font-size: 3.4375rem;
-  color: #e5e5e9;
+  color: hsl(61, 70%, 52%);
 
   padding-inline: 20px;
 
@@ -50,5 +50,5 @@
   align-items: center;
 
   font-size: 30px;
-  color: #e5e5e9;
+  color: hsl(61, 70%, 52%);
 }
