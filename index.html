@@ -22,61 +22,61 @@
           <div id="PrimareForm">
             <label>Mortgage Amount</label>
             <div id="PrimareInput">
-              <div><i class="ph ph-currency-eur"></i></div>
+              <div class="Icon"><i class="ph ph-currency-eur"></i></div>
               <input type="number" id="Valor" />
             </div>
+            <span class="errorState">This field is required</span>
           </div>
           <div id="SecunderyForms">
             <div>
               <label>Mortgage Term</label>
               <div class="SecunderyInput">
                 <input type="number" id="anos" />
-                <div><span>years</span></div>
+                <div class="Icon"><span>years</span></div>
               </div>
+              <span class="errorState">This field is required</span>
             </div>
 
             <div>
               <label>Interst Terms</label>
               <div class="SecunderyInput">
                 <input type="number" id="porcento" />
-                <div><span>%</span></div>
+                <div class="Icon"><span>%</span></div>
               </div>
+              <span class="errorState">This field is required</span>
             </div>
           </div>
         </div>
         <div id="check">
           <label>Mortgage Type</label>
           <div>
-            <input type="radio" name="type" id="Repayment" checked />
+            <input
+              type="radio"
+              name="type"
+              id="Repayment"
+              value="Repayment"
+              checked
+            />
             <label for="Repayment">Repayment</label>
           </div>
           <div>
-            <input type="radio" name="type" id="Interest" />
+            <input type="radio" name="type" id="Interest" value="Interest" />
             <label for="Interest">Interest Only</label>
           </div>
+          <span class="errorState">This field is required</span>
         </div>
         <button id="Calcular" type="submit">
           <img src="./assets/images/icon-calculator.svg" alt="" />Calculate
           Repayments
         </button>
       </div>
-      <div id="Results">
-        <h1>Your Results</h1>
+      <div id="textArea">
+        <img src="./assets/images/illustration-empty.svg" alt="" />
+        <h1>Results shown here</h1>
         <p>
-          Your results are show below based on the information your provided. To
-          adjust the results, edit the form and click "Calculate Repayments"
-          again
+          Complete the form and click "Calculate Repayments" to see what your
+          monthly repayments would be.
         </p>
-        <div id="ResultsData">
-          <p>Your monthly repayments</p>
-          <div id="PrimereResult">
-            <i class="ph ph-currency-eur"></i><span id="Resultado"></span>
-          </div>
-          <p>Total you'll repay over the term</p>
-          <div id="SecundaryResult">
-            <i class="ph ph-currency-eur"></i><span id="total"></span>
-          </div>
-        </div>
       </div>
     </div>
     <script src="./assets/script.js"></script>

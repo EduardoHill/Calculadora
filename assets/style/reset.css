@@ -19,3 +19,7 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+.errorState {
+  font-size: 10px;
+  color: red;
+}
