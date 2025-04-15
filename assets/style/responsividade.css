@@ -18,8 +18,9 @@
     width: 100%;
   }
 
-  #Results {
+  #Results,
+  #textArea {
     border-radius: 0;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 0;
   }
 }
