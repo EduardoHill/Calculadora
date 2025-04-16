@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     border-radius: 0;
+
+    height: 100%;
   }
 
   #SecunderyForms {
@@ -14,7 +16,8 @@
   .SecunderyInput input {
     width: 100%;
   }
-  button {
+
+  #Calcular {
     width: 100%;
   }
 
@@ -22,5 +25,11 @@
   #textArea {
     border-radius: 0;
     border-bottom-left-radius: 0;
+  }
+}
+
+@media (max-width: 22.5rem) {
+  body {
+    height: 100%;
   }
 }
